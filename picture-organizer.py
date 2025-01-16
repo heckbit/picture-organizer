@@ -5,7 +5,7 @@ from datetime import datetime
 def coalesce(*params):
     return next((param for param in params if param is not None), None)
 
-base_path = "C:\\Users\\jghd1\\OneDrive\\Pictures\\Camera Roll"
+base_path = "*"
 
 # Access picture files in Camera Roll
 files = os.listdir(base_path)
